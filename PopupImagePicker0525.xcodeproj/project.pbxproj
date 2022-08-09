@@ -25,6 +25,7 @@
 		024420B2283E1DE700342234 /* PopupImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupImagePickerView.swift; sourceTree = "<group>"; };
 		024420B5283E1E3900342234 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
 		024420B8283E1EDC00342234 /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
+		024420BA283E278100342234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		024420A2283E1D4400342234 /* PopupImagePicker0525 */ = {
 			isa = PBXGroup;
 			children = (
+				024420BA283E278100342234 /* Info.plist */,
 				024420B7283E1EAF00342234 /* ViewModel */,
 				024420B4283E1DF800342234 /* Model */,
 				024420B1283E1DCE00342234 /* View */,
@@ -306,6 +308,8 @@
 				DEVELOPMENT_TEAM = Z24MR455SQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PopupImagePicker0525/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "使用相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,6 +339,8 @@
 				DEVELOPMENT_TEAM = Z24MR455SQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PopupImagePicker0525/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "使用相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

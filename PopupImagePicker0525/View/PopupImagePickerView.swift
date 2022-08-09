@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct PopupImagePickerView: View {
+    @StateObject var imagePickerModel: ImagePickerViewModel = .init()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+        }
     }
 }
 
